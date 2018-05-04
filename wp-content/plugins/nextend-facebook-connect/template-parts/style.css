@@ -1,0 +1,64 @@
+.nsl-container > a {
+    text-decoration: none !important;
+    box-shadow: none !important;
+    border: 0;
+    box-shadow: none;
+}
+
+.nsl-container-block {
+    max-width: 280px;
+}
+
+.nsl-container-block > a {
+    display: block;
+    margin: 10px 0;
+}
+
+.nsl-container-inline {
+    margin: -5px;
+    text-align: left;
+}
+
+.nsl-container-inline > a {
+    margin: 5px;
+    display: inline-block;
+}
+
+.nsl-container .nsl-button {
+    cursor: pointer;
+    vertical-align: top;
+    border-radius: 4px;
+}
+
+.nsl-container .nsl-button-default {
+    color: #fff;
+    display: flex;
+}
+
+.nsl-container .nsl-button-icon {
+    display: inline-block;
+}
+
+.nsl-container svg {
+    height: 24px;
+    width: 24px;
+    vertical-align: top;
+    margin: 8px;
+    flex: 0 0 auto;
+}
+
+.nsl-container .nsl-button-default span {
+    margin: 0 24px 0 12px;
+    padding: 10px 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .25px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: clip;
+    white-space: nowrap;
+    flex: 1 1 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
